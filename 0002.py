@@ -23,3 +23,16 @@ def fibonacci_sum_of_evens_under_fourmillion():
         i = i + 1
 
 fibonacci_sum_of_evens_under_fourmillion()
+
+def fibonacci_tablature(integer):
+    sum = 0
+    tab = {}
+    tab[0] = 1
+    tab[1] = 1
+    i = 2
+    while i <= integer: 
+        tab[i] = tab[i-1] + tab[i-2] 
+        i = i + 1
+    return tab[integer]
+
+fibonacci_tablature(10000)
