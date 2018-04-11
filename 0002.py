@@ -24,6 +24,8 @@ def fibonacci_sum_of_evens_under_fourmillion():
 
 fibonacci_sum_of_evens_under_fourmillion()
 
+# normal dynamic Fibonacci with tabulation: 
+
 def fibonacci_tablature(integer):
     sum = 0
     tab = {}
